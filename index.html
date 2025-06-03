@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LaFerrari</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to bottom, #c0c0c0, #2f2f2f); /* Silver to Charcoal */
+      color: #1a1a1a;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      text-align: center;
+      padding: 40px 20px;
+      overflow: hidden;
+    }
+
+    .title {
+      font-size: 3rem;
+      font-weight: bold;
+      color: #d40000;
+      text-shadow: 0 0 8px #d40000;
+      animation: glowMove 8s linear infinite;
+      display: inline-block;
+      white-space: nowrap;
+    }
+
+    @keyframes glowMove {
+      0% {
+        transform: translateX(-100%);
+        opacity: 0;
+      }
+      10% {
+        opacity: 1;
+      }
+      90% {
+        opacity: 1;
+      }
+      100% {
+        transform: translateX(100%);
+        opacity: 0;
+      }
+    }
+
+    section {
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    h2 {
+      text-align: center;
+      text-decoration: underline;
+      margin-top: 40px;
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      text-align: center;
+    }
+
+    #backToTop {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 999;
+    }
+
+    /* Stylish Buttons from Uiverse.io (modified color) */
+    button {
+      background: #d40000;
+      color: white;
+      font-family: inherit;
+      padding: 0.6em 1.3em;
+      font-weight: 900;
+      font-size: 18px;
+      border: 3px solid #111;
+      border-radius: 0.4em;
+      box-shadow: 0.1em 0.1em;
+      cursor: pointer;
+      margin: 10px;
+    }
+
+    button:hover {
+      transform: translate(-0.05em, -0.05em);
+      box-shadow: 0.15em 0.15em;
+    }
+
+    button:active {
+      transform: translate(0.05em, 0.05em);
+      box-shadow: 0.05em 0.05em;
+    }
+
+    .link-buttons {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #1a1a1a;
+      color: white;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="title">LaFerrari</div>
+  </header>
+
+  <section>
+    <h2>Hybrid Power</h2>
+    <p>LaFerrari uses a V12 engine combined with electric motors for extreme performance and better efficiency.</p>
+
+    <h2>Top Speed</h2>
+    <p>This hypercar reaches speeds over 217 mph, putting it in the league of the world’s fastest cars.</p>
+
+    <h2>Exclusivity</h2>
+    <p>Only 499 coupe versions were made, making the LaFerrari a rare and highly collectible masterpiece.</p>
+
+    <h2>Design</h2>
+    <p>The sleek, aerodynamic body improves speed and handling while giving LaFerrari its signature aggressive look.</p>
+
+    <h2>Technology</h2>
+    <p>Advanced F1-inspired systems control traction, suspension, and braking to maximize performance on and off track.</p>
+
+    <h2>Made in Italy</h2>
+    <p>LaFerrari was designed and built in Maranello, Italy—home of Ferrari’s most iconic automotive innovations.</p>
+  </section>
+
+  <div class="link-buttons">
+    <a href="https://www.ferrari.com/en-EN/auto/laferrari" target="_blank">
+      <button>Official Ferrari Website</button>
+    </a>
+    <a href="https://lr100537.github.io/my-website-2/" target="_blank">
+      <button>About Me</button>
+    </a>
+  </div>
+
+  <footer>
+    © 2025 Ferrari LaFerrari Website
+  </footer>
+
+  <div id="backToTop">
+    <a href="#top">
+      <button>Back to Top</button>
+    </a>
+  </div>
+
+</body>
+</html>
